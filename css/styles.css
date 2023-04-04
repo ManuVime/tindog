@@ -1,0 +1,172 @@
+#title {
+    background-color: #ff4c68;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+.container-fluid {
+    padding: 3% 5%;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 2rem;
+}
+
+p {
+    font-family: "Montserrat";
+    color: #8f8f8f;
+}
+
+.title {
+    padding-left: 10%;
+}
+
+.imgDog {
+    text-align: center;
+}
+
+#imgDoggo {
+    transform: rotate(25deg);
+    width: 20%;
+    position: absolute;
+}
+
+#features {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    padding: 7% 15%;
+}
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+.downloadButton {
+    margin: 3% 5% 3% 0;
+}
+
+.features {
+    text-align: center;
+}
+
+.icona {
+    color:#ef8172;
+}
+
+.icona:hover {
+    color: #ff4e88;
+}
+
+#testimonials {
+    text-align: center;
+    background-color:  #ef8172;
+    color: white;
+}
+
+.testimonialsImage {
+    width: 10%;
+    border-radius: 100%;
+}
+
+#press {
+    padding: 7% 15%;
+    text-align: center;
+    background-color:  #ef8172;
+    color: white; 
+}
+
+.pressLogo {
+    width: 20%;
+    padding-left: 5%;
+}
+
+.carouselBtn {
+
+}
+
+.carouselItem {
+    padding: 7% 15%;
+}
+
+#pricing {
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.card {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.signupButton {
+    border-color: black;
+    border-style: solid;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: white;
+    font-size: 3rem;
+    padding: 7% 15%;
+}
+
+#footer {
+    background-color: white;
+    text-align: center;
+    font-family: "Montserrat";
+    padding: 7% 15% 0;
+    color: black;
+}
+
+.footerIcon {
+    padding: 0 2% 0;
+}
+
+
+@media (max-width: 992px) {
+    .title {
+        text-align: center;
+    }
+
+    #imgDoggo {
+        width: 20%;
+        position: static;
+        transform: rotate(0);
+    }
+
+    .downloadButton {
+        text-align: center;
+    }
+}
